@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.45.1">
+<file name="/home/caiorhoden/Documents/Github/atividade_pratica_2_streams/src/main/java/com/hospital/App.java">
+</file>
+<file name="/home/caiorhoden/Documents/Github/atividade_pratica_2_streams/src/main/java/com/hospital/Especialista.java">
+</file>
+<file name="/home/caiorhoden/Documents/Github/atividade_pratica_2_streams/src/main/java/com/hospital/Hospital.java">
+</file>
+<file name="/home/caiorhoden/Documents/Github/atividade_pratica_2_streams/src/test/java/com/hospital/AppTest.java">
+</file>
+</checkstyle>
