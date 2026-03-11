@@ -34,7 +34,10 @@ public class Hospital {
      * @param n the number of specialists to print
      */
     public void imprimirTopEspecialistasMaisPagos(int n) {
-
+        equipe.stream()
+            .sorted()
+            .limit()
+            .forEach (System.out :: println);
     }
 
     /**
