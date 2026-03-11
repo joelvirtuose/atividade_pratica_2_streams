@@ -35,9 +35,9 @@ public class Hospital {
      */
     public void imprimirTopEspecialistasMaisPagos(int n) {
         equipe.stream()
-            .sorted(Comparator.comparing(Especialita :: getSalario).reversed())
+            .sorted(Comparator.comparing(Especialita::getSalario).reversed())
             .limit(n)
-            .forEach(System.out :: println);
+            .forEach(System.out::println);
     }
 
     /**
