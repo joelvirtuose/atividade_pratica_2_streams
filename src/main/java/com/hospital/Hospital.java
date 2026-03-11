@@ -37,8 +37,8 @@ public class Hospital {
         equipe.stream()
             .sorted(Comparator.comparing(Especialista::getSalario).reversed())
             .limit(n)
-            .map(Especialista::)
-            .forEach(System.out::println());
+            .map(Especialista::getNome)
+            .forEach(System.out::println);
     }
 
     /**
