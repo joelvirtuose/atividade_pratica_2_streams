@@ -47,7 +47,8 @@ public class Hospital {
      * @return the count of specialists in the department
      */
     public int numeroEspecialistasPorDepartamento(String departamento) {
-
+        .filter(d -> getDepartamento() == departamento)
+        .stream.count()
     }
 
     /**
